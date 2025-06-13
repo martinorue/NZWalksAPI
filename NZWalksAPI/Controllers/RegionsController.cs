@@ -11,6 +11,7 @@ namespace NZWalksAPI.Controllers
     {
         private readonly NZWalksDbContext dbContext;
 
+        // constructor to inject the database context
         public RegionsController(NZWalksDbContext dbContext)
         {
             this.dbContext = dbContext;

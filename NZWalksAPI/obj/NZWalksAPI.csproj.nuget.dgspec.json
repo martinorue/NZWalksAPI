@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46948317\\Documents\\Udemy\\Build ASP.NET Core Web API - Scratch To Finish (.NET8 API)\\NZWalks\\NZWalks\\NZWalksAPI\\NZWalksAPI.csproj": {}
+    "C:\\Users\\46948317\\Documents\\NZWalksAPI\\NZWalksAPI\\NZWalksAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46948317\\Documents\\Udemy\\Build ASP.NET Core Web API - Scratch To Finish (.NET8 API)\\NZWalks\\NZWalks\\NZWalksAPI\\NZWalksAPI.csproj": {
+    "C:\\Users\\46948317\\Documents\\NZWalksAPI\\NZWalksAPI\\NZWalksAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46948317\\Documents\\Udemy\\Build ASP.NET Core Web API - Scratch To Finish (.NET8 API)\\NZWalks\\NZWalks\\NZWalksAPI\\NZWalksAPI.csproj",
+        "projectUniqueName": "C:\\Users\\46948317\\Documents\\NZWalksAPI\\NZWalksAPI\\NZWalksAPI.csproj",
         "projectName": "NZWalksAPI",
-        "projectPath": "C:\\Users\\46948317\\Documents\\Udemy\\Build ASP.NET Core Web API - Scratch To Finish (.NET8 API)\\NZWalks\\NZWalks\\NZWalksAPI\\NZWalksAPI.csproj",
+        "projectPath": "C:\\Users\\46948317\\Documents\\NZWalksAPI\\NZWalksAPI\\NZWalksAPI.csproj",
         "packagesPath": "C:\\Users\\46948317\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46948317\\Documents\\Udemy\\Build ASP.NET Core Web API - Scratch To Finish (.NET8 API)\\NZWalks\\NZWalks\\NZWalksAPI\\obj\\",
+        "outputPath": "C:\\Users\\46948317\\Documents\\NZWalksAPI\\NZWalksAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

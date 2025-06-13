@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LktFspv7Ljk=",
+  "dgSpecHash": "I4x3x0MuY2Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\46948317\\Documents\\Udemy\\Build ASP.NET Core Web API - Scratch To Finish (.NET8 API)\\NZWalks\\NZWalks\\NZWalksAPI\\NZWalksAPI.csproj",
+  "projectFilePath": "C:\\Users\\46948317\\Documents\\NZWalksAPI\\NZWalksAPI\\NZWalksAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\46948317\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\46948317\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
