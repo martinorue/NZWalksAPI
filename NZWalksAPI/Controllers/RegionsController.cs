@@ -68,5 +68,36 @@ namespace NZWalksAPI.Controllers
             //Return DTO back to the client
             return Ok(regionDto);
         }
+
+        // POST: api/regions
+        [HttpPost]
+        public IActionResult Add([FromBody] AddRegionRequestDto addRegionRequestDto)
+        {
+            // Validate the request
+            if (addRegionRequestDto == null || string.IsNullOrWhiteSpace(addRegionRequestDto.Code) || string.IsNullOrWhiteSpace(addRegionRequestDto.Name))
+            {
+                return BadRequest("Invalid region data.");
+            }
+            // Map DTO to Domain Model
+            var regionDomain = new Region
+            {
+                Id = Guid.NewGuid(), // Generate a new unique identifier
+                Code = addRegionRequestDto.Code,
+                Name = addRegionRequestDto.Name,
+                RegionImageUrl = addRegionRequestDto.RegionImageUrl
+            };
+            // Add the new region to the database
+            dbContext.Regions.Add(regionDomain);
+            dbContext.SaveChanges();
+            // Map Domain Model back to DTO for response
+            var regionDto = new RegionDto
+            {
+                Id = regionDomain.Id,
+                Code = regionDomain.Code,
+                Name = regionDomain.Name,
+                RegionImageUrl = regionDomain.RegionImageUrl
+            };
+            return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto);
+        }
     }
 }
