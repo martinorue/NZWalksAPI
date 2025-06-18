@@ -132,5 +132,22 @@ namespace NZWalksAPI.Controllers
             };
             return Ok(regionDto);
         }
+
+        // DELETE: api/regions/{id}
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public IActionResult Delete([FromRoute] Guid id)
+        {
+            // Find the existing region in the database
+            var existingRegion = dbContext.Regions.FirstOrDefault(x => x.Id == id);
+            if (existingRegion == null)
+            {
+                return NotFound();
+            }
+            // Remove the region from the database
+            dbContext.Regions.Remove(existingRegion);
+            dbContext.SaveChanges();
+            return NoContent(); // Return 204 No Content status code
+        }
     }
 }
