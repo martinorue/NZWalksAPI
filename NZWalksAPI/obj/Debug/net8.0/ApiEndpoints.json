@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "NZWalksAPI.Controllers.RegionsController",
-    "Method": "Add",
+    "Method": "Create",
     "RelativePath": "api/Regions",
     "HttpMethod": "POST",
     "IsController": true,
