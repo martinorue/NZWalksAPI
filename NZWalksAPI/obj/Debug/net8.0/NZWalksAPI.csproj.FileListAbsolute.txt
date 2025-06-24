@@ -291,3 +291,4 @@ C:\Users\46948317\Documents\NZWalksAPI\NZWalksAPI\obj\Debug\net8.0\refint\NZWalk
 C:\Users\46948317\Documents\NZWalksAPI\NZWalksAPI\obj\Debug\net8.0\NZWalksAPI.pdb
 C:\Users\46948317\Documents\NZWalksAPI\NZWalksAPI\obj\Debug\net8.0\NZWalksAPI.genruntimeconfig.cache
 C:\Users\46948317\Documents\NZWalksAPI\NZWalksAPI\obj\Debug\net8.0\ref\NZWalksAPI.dll
+C:\Users\46948317\Documents\NZWalksAPI\NZWalksAPI\bin\Debug\net8.0\AutoMapper.dll
